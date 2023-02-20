@@ -1,0 +1,177 @@
+
+/* 
+font-family: 'Bodoni Moda', serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    width: 100;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    /* background-color: brown; */
+    padding: 10px;
+    margin-left: 175px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.tabs {
+    display: flex;
+    /* background-color: blue; */
+    padding: 0px 10px;
+    margin-right: 125px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.tabs a {
+    padding: 0px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+/* FEATURED */
+
+.featured {
+    /* background-color: azure; */
+    display: flex;
+    height: 500px;
+    padding: 150px 220px;
+    column-gap: 125px;
+}
+
+.featured-title {
+    flex-flow: column;
+    /* background-color: aquamarine; */
+    margin: 0;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.featured-title h3 {
+    /* background-color: beige; */
+    margin: 0px;
+    font-size: 60px;
+}
+
+.featured-title p {
+    /* background-color: bisque; */
+    margin: 30px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.featured-title button {
+    margin-top: 60px;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid rgb(159, 159, 159);
+}
+
+.featured-image img{
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 5px 5px 10px black; */
+    filter: none;
+    -webkit-filter: drop-shadow(5px 5px 25px rgb(188, 188, 188));
+}
+
+/* TRENDING */
+
+.trending {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.trending-title {
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    /* background-color: aqua; */
+    font-size: xxx-large;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.trending-title h4 {
+    margin: 50px 0px;
+}
+
+.trending-title hr {
+    width: 350px;
+    height: 1px;
+    border: 0px;
+    background-color: grey;
+}
+
+.trending-books {
+    /* background-color: blueviolet; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.trending-book {
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 30px;
+    width: 13%;
+    height: auto;
+}
+
+.trending-image {
+    padding: 0px;
+    margin: 0px;
+    filter: none;
+    -webkit-filter: drop-shadow(5px 5px 20px rgb(188, 188, 188));
+}
+
+.trending-image img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 280px;
+}
+
+.trending-desc {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: brown; */
+}
+
+.trending-book-name {
+    font-size: x-large;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.trending-book-author {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: medium;
+    color: grey;
+}
