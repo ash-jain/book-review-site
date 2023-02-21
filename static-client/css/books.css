@@ -13,16 +13,17 @@ body {
 /* NAVBAR */
 
 .navbar {
-    /* 
     
-    FOR FIXED NAVBAR
+    
+    /* FOR FIXED NAVBAR
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: white; 
+    z-index: 100; */
     
-    */
+   
     display: flex;
     width: 100;
     /* background-color: aqua; */
@@ -135,7 +136,10 @@ body {
 }
 
 .intro {
-    font-size: 17px;
+    padding-top: 20px;
+    font-size: 14px;
+    word-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-desc hr {
@@ -147,7 +151,21 @@ body {
 }
 
 .book-details {
+    padding-top: 40px;
     display: grid;
+    row-gap: 12px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.book-details-item {
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold-text {
+    font-weight: bolder;
 }
 
 .books-list {
