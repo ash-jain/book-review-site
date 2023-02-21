@@ -13,6 +13,16 @@ body {
 /* NAVBAR */
 
 .navbar {
+    /* 
+    
+    FOR FIXED NAVBAR
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; 
+    
+    */
     display: flex;
     width: 100;
     /* background-color: aqua; */

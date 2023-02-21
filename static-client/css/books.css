@@ -1,0 +1,244 @@
+
+/* 
+font-family: 'Bodoni Moda', serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    /* 
+    
+    FOR FIXED NAVBAR
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; 
+    
+    */
+    display: flex;
+    width: 100;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.navbar h1 {
+    /* background-color: brown; */
+    padding: 10px;
+    margin-left: 175px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.tabs {
+    display: flex;
+    /* background-color: blue; */
+    padding: 0px 10px;
+    margin-right: 125px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.tabs a {
+    padding: 0px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.book-container {
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 90%;
+    height: auto;
+    margin: 0px 0px 0px 80px; /* TOP  RIGHT  BOTTOM  LEFT*/
+    padding: 0px;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.image-background img {
+    width: 220px;
+    height: 320px;
+    filter: none;
+    -webkit-filter: drop-shadow(20px 20px 25px rgb(85, 85, 85));
+}
+
+.container-desc {
+    margin: 0px;
+    padding: 100px;
+    /* background-color: bisque; */
+    height: auto;
+    width: 100%;
+}
+
+.book-title {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.book-title h1 {
+    font-size: 50px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.book-title p {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.book-description {
+    padding-top: 5px;
+    /* background-color: brown; */
+}
+
+.quote {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.intro {
+    font-size: 17px;
+}
+
+.container-desc hr {
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+.book-details {
+    display: grid;
+}
+
+.books-list {
+    display: flex;
+    /* background-color:azure; */
+    width: 20%;
+    height: auto;
+    flex-flow: column;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid rgb(235, 235, 235);
+    /* background-color: aqua; */
+}
+
+.on-hover {
+    background: linear-gradient(to right, #eee, #eee);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+
+.on-hover:hover {
+    background-size: 100% 100%;
+    /* background-color: rgb(159, 159, 159); */
+    animation-name: sweep-to-right;
+}
+
+
+.list-item img {
+    padding: 40px 0px;
+    width: 100px;
+    height: 150px;
+    filter: none;
+    -webkit-filter: drop-shadow(15px 15px 15px rgb(174, 172, 172));
+}
+
+.active-book {
+    border-left: 4px solid red;
+    background-color: rgb(248, 231, 231);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(230, 230, 230);
+    margin: 0px;
+    padding: 30px 0px 45px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    /* background-color:rgb(49, 212, 158); */
+    padding:50px 220px;
+    /* margin-right: 55px; */
+    font-size: large;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.footer-sections {
+    /* background-color: aquamarine; */
+    margin-right: 190px;
+    padding: 0px;
+    display: flex;
+    line-height: 2;
+}
+
+.footer-sections h3 {
+    font-size: 20px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.footer-sections a {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.footer-sections a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer-sections-flow {
+    display: flex;
+    flex-flow: column;
+    padding: 20px 40px;
+}
