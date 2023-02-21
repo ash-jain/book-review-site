@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('../static/fonts/brandon-grotesque.woff') format('woff'),
+      url('../static/fonts/brandon-grotesque.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../static/fonts/raleway.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../static/fonts/montserrat.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('../static/fonts/abril-fatface.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../static/fonts/poppins.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
