@@ -1,0 +1,80 @@
+/* 
+font-family: 'Bodoni Moda', serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    
+    
+    /* FOR FIXED NAVBAR */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 10;
+    
+   
+    display: flex;
+    width: 100;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    /* background-color: brown; */
+    padding: 10px;
+    margin-left: 175px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.tabs {
+    display: flex;
+    /* background-color: blue; */
+    padding: 0px 10px;
+    margin-right: 125px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.tabs a {
+    padding: 0px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* BODY */
+
+.map-background {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.map-background img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    z-index: -1;
+}
+
+.contact {
+    z-index: 0;
+    height: fit-content;
+    width: 200px;
+}
+
